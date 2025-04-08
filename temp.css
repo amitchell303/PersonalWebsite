@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(https://tinyurl.com/kmhomepgbackgroundpic);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.navBar,
+.footer {
+  background-color: rgb(12, 112, 31);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.navName {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-size: 130%;
+  flex-grow: 1;
+  /* flex-basis: 50%; */
+}
+.navLogo {
+    width: 9vw;
+    height: auto;
+  }
+  
+
+a {
+  color: white;
+  padding: 10px;
+  font-size: 130%;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(255, 94, 0);
+  border-radius: 8px;
+  margin: 0;
+  /* opacity: 50%; */
+}
+
+.footerSocials {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .footerQl{
+
+} */
+
+.socialLogos {
+  width: 30px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.maincontent {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  flex-grow: 1;
+}
+
+.maincontent p {
+  border: 1px solid grey;
+}
