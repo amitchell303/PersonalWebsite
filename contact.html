@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script src="javascript.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navBar">
+        <img
+          class="navLogo"
+          src=".vscode\Images\pixelreg.png"
+          alt="Pixel Logo"
+        />
+        <div class="navName">
+          <h1>Kenny McCormick</h1>
+        </div>
+        <div class="navLinks">
+          <a href="home.html" target="_blank">Home</a>
+          <a href="about.html" target="_blank">About Me</a>
+          <a href="portfolio.html" target="_blank">Portfolio</a>
+          <a href="contact.html" target="_blank">Contact</a>
+        </div>
+      </nav>
+      <main class="maincontent">
+        <h1>Contact Me</h1>
+        <form id="myForm">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address: </label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message:</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Type message here..."
+            ></textarea>
+          </div>
+          <div class="formCheck">
+            <input type="checkbox" id="antiCheckbox" />
+            <label class="form-check-label" for="antiCheckbox"
+              >Box of Mystery</label
+            >
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </main>
+      <footer class="footer">
+        <div class="footerQL">
+          <a href="home.html" target="_blank">Home</a>
+          <a href="about.html" target="_blank">About Me</a>
+          <a href="portfolio.html" target="_blank">Portfolio</a>
+          <a href="contact.html" target="_blank">Contact</a>
+        </div>
+        <div class="footerSocials">
+          <a href="https://www.linkedin.com/" target="blank">
+            <img
+              class="socialLogos"
+              src="https://fsa-personal-website-part-2-3233b278f193.herokuapp.com/images/linkedin.svg"
+              alt="Linkedin"
+            />
+          </a>
+          <a href="https://www.facebook.com/" target="blank">
+            <img
+              class="socialLogos"
+              src="https://fsa-personal-website-part-1-0b8b53efdbf4.herokuapp.com/images/facebook.svg"
+              alt="Facebook"
+            />
+          </a>
+          <a href="https://www.Instagram.com/" target="blank">
+            <img
+              class="socialLogos"
+              src="https://img.freepik.com/premium-vector/instagram-vector-logo-icon-social-media-logotype_901408-392.jpg?semt=ais_hybrid"
+              alt="Instagram"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
