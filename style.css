@@ -15,6 +15,12 @@ body {
   flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  .maincontent {
+    width: 90%;
+  }
+}
+
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
@@ -82,7 +88,3 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   flex-grow: 1;
 }
-
-/* .maincontent p {
-  border: 1px solid grey;
-} */
