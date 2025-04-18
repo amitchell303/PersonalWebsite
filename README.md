@@ -1,15 +1,13 @@
-# Block09
+# Blocks 9 & 12
 
-Rubric for pt.1
-Github: More than one branch (including main/master), with descriptive branch name(s)
-Github: More than one commit, with descriptive commit messages
-A descriptive Readme file
+Instead of a website about myself, I made it about Kenny McCormick from South Park. Who doesn't love Kenny? 
+Explore this site to learn more about Kenny's various alter egos, employment history, and secret identity:                
+              *Mysterion*
 
-Rubric pt.2
-Generate a github project and repository containing the project
-Create a functioning layout in CSS grid or CSS flex
-Proportional units are used
-Advanced CSS Selectors: Use at least one of the following selectors: media queries, nth selectors, !important, hierarchical selectors
-Use at least one of the following rules: box-sizing, backgrounds, DOM ordering, z-index, transitions, calc, common shorthands
-Contact form: Design and build an HTML form with a variety of input types. Form must have a submit button, but it does not need to be functional.
-Collaborate with a partner to build a project plan
+I had a lot of fun with the project. I will likely continue to work on it and use it as a CSS playground. This workshop really allowed me to get comfortable styling using CSS. A few features I hope to add in the future:
+  -  Navbar logo navigating to home
+  -  animated South Park sign in footer
+  -  add "prefessional references" to include Kenny's friends
+  -  add image to contact form alert referencing scene
+  -  clean up code overall, optimize nav/footer integration 
+  -  refine styling
